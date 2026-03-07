@@ -6,7 +6,7 @@
   font-family: "Segoe UI", sans-serif;
 }
 
-.container {
+.container3 {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -38,7 +38,9 @@
   padding: 30px 25px;
   text-align: center;
   box-shadow: 0 10px 30px rgba(255, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .feature-card:hover {

@@ -4,6 +4,10 @@ box-sizing: border-box;
 font-family: bodoni moda,serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #000000;
 }
@@ -51,7 +55,7 @@ header ul li a{
     text-decoration-color: white;
     text-underline-offset: 5px;
     transition: 0.3s ease-in-out;
-    font-size: 20px;
+    font-size: 15px;
 }
 
    
@@ -92,9 +96,9 @@ header button a:hover{
     
 }
 .class h2{
-    font-size: 48px;
+    font-size: 68px;
     color: white;
-    margin-top: 20px;
+    margin-top: 35px;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
@@ -108,7 +112,7 @@ header button a:hover{
     -webkit-text-fill-color: transparent;
     text-align: center;
     padding-top: 0;
-    font-size: 45px;
+    font-size: 55px;
     animation-name:slideup ;
     animation-iteration-count: 1;
     animation-duration: 2s;     
@@ -151,7 +155,7 @@ header button a:hover{
     display: flex;
     justify-content: flex-start;
     padding-top: 20px;
-    padding-left: 50px;
+    padding-left: 5px;
     flex-wrap: wrap;
 color: white;
 width: 600px;
@@ -175,10 +179,10 @@ height: 500px;
     animation-duration: 2s;  
     flex-wrap: wrap;   
 }   
-.container{
+.container1{
     display: flex;
     justify-content: center;
-    gap: 6px;
+    gap: 61px;
     flex-wrap: wrap;
     flex-direction: row;
 
@@ -186,8 +190,8 @@ height: 500px;
 .video video{
     flex-wrap: wrap;
     object-fit: cover;
-    height: 500px;
-    width: 600px;
+    height: 400px;
+    width: 500px;
     border-radius: 25px;
     padding-right: 10px;
     flex-wrap: wrap;
@@ -195,7 +199,7 @@ height: 500px;
 .customers{
     display: flex;
     justify-content: flex-start;
-    padding-left: 50px;
+    padding-left: 100px;
         
     gap: 50px;
     position: relative;
@@ -214,21 +218,7 @@ height: 500px;
     font-weight: 500;
     
 }
-.our{
-       text-align: center;
-   margin-top: 30px;
-    padding-top: 20px;
-    flex-wrap: wrap;
-    color: white;
-}
-.our h2{
-    font-size: 40px;
-    margin-bottom: 10%;
-    display: flex;
-    text-align: justify;
-    padding-left: 50px;
-    padding-top: 50px;
-}
+
 .our button{
     padding: 10px 20px;
     background-color: black;

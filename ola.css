@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(163, 4, 4);
 }
 
 @keyframes fadeUp {
@@ -22,8 +21,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 25px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  height: 75px;
+  box-shadow: rgba(43, 43, 59, 0.2) 8px 7px 29px 0px;
+  height: 90px;
+  background-color: #000000;
 }
 
 .logo {
@@ -32,7 +32,7 @@ header {
 
 .logo span {
   font-family: "Lobster Two", sans-serif;
-  color: rgb(20, 20, 20);
+  color: rgb(253, 17, 17);
 }
 
 .logo h1 {
@@ -68,12 +68,17 @@ header {
   background-color: red;
 }
 
+.hero {
+  background-color: rgb(253, 17, 17);
+  height: 100vh;
+}
+
 /* .box1{
     /* background: url(/455fc8424a74c93c68ffb78da786710e.jpg); */
 /* background: linear-gradient(rgba(255, 0, 0, 0.281)) ,url(/images/kkkk.png); */
 /* width: 100%;
     border-radius: 30px;
-    margin-left: 60px;
+
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,7 +89,8 @@ header {
 } */
 
 .box1 {
-  /* background: url(/c825b6075e3173e649bb68b417280ace-removebg-preview.png);  */
+  padding-top: 5rem;
+
   background-repeat: no-repeat;
   width: 100%;
   height: 80vh;
@@ -105,12 +111,12 @@ header {
   background: transparent;
   animation: fadeUp 1s linear;
   margin-left: 20px;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .box1 p {
   color: white;
-  font-size: 90%;
+  font-size: 40px;
   background: transparent;
   animation: fadeUp 0.5s linear;
   margin-left: 20px;
@@ -175,19 +181,22 @@ header {
   height: 70vh;
   color: rgba(255, 255, 255, 0.872);
   margin-right: 50px;
-  margin-top: 35px;
+
   background: rgba(196, 193, 193, 0.016);
+  position: relative;
+  bottom: -5rem;
 }
 
-.for-img2 img{
-    height: 35rem;
+.for-img2 img {
+  height: 35rem;
 }
 
-
-
+.sec-img {
+  background-color: #000000;
+}
 
 .how2 {
-margin-top: 90px;
+
 
   display: flex;
 
@@ -197,8 +206,9 @@ margin-top: 90px;
   justify-content: space-evenly;
 
   /* border: solid 1px white; */
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  background: rgba(196, 193, 193, 0.016);
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background: rgba(196, 193, 193, 0.016); */
+  position: relative;
 }
 
 /* .for-img2 p {
