@@ -15,7 +15,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background :url(assess/photo_2026-03-02_02-26-12.jpg);
+  background :url(/assets/image.jpg);
   /* padding: 20px 10px; */
   padding: 50px;
 }
