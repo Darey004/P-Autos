@@ -20,7 +20,7 @@ header{
     background-color: #090909;
     color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: sticky;
+    position: relative;
     top: 0;
     width: 100%;
     flex-wrap: wrap;
