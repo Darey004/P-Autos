@@ -5,20 +5,30 @@
 }
 
 footer {
-  background-color: #333;
+  background-color: #000000;
   color: #fff;
   padding: 20px 10px;
   /* margin: 20px 0; */
 }
 .write-up {
+  margin-top: 8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+<<<<<<< HEAD
   background :url(/assets/image.jpg);
+=======
+background-image: url(assets/Images/8e307890-cca5-4212-82c6-0b41feaa1b53.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+>>>>>>> ca39ad23f3752edae64e7a92cb5b96cf171588e3
   /* padding: 20px 10px; */
-  padding: 50px;
+  padding: 70px;
+  object-fit: contain;
 }
+
 
 .feet {
   display: flex;
@@ -62,7 +72,7 @@ span {
 
 .d-btn {
   padding: 10px 20px;
-  background-color: black;
+  background-color:rgb(253, 17, 17) ;
   color: #fff;
   border: none;
   border-radius: 5px;
